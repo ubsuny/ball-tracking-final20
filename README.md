@@ -25,3 +25,5 @@ Finding the column of the ball's coordinate is the exact same procedure as findi
 Below are the results of an example run, comparing the simulation data to the tracking algorithm:
 
 ![](https://github.com/ubsuny/ball-tracking-final20/blob/main/Images/ballComplete.png)
+
+Some error is evident in this system. This is due to the fact that to make a continuous number line fit into a discrete matrix, we rounded the x and y coordinates down in order to have them fit in a matrix box. Each matrix box is an integer value, so the decimal of the coordinates was erased. This however gives us a well defined maximum average error of 0.5, half the size of a matrix box, across the board. However, the maximum error possible for a single box is .99999 repeating, as we rounded down to the nearest integer in constructing the matrix.
