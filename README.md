@@ -8,7 +8,7 @@ See: https://www.youtube.com/watch?v=PfOJhxm3M8U
 - Develop an algorithm based on Linear Algebra (Matrix operations) to track the position of the ball in time.
 
 ## How to run the code
-The juypter notebook, BallTracking.ipynb, contains all the code for this project and outlines an example.  To run the notebook, one need only have access to basic python libraries which include matplotlib, math, and numpy libraries.
+The juypter notebook BallTracking.ipynb and the python file algorithm.py, contains all the code for this project and outlines an example.  To run the notebook, one need only have access to basic python libraries which include matplotlib, math, and numpy libraries.
 
 ## The Tracking Algorithm
 
