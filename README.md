@@ -1,10 +1,14 @@
 # Ball tracking
 
+## Project Outline
 Develop your own code based on linear algebra to track a ball in a sequence of pictures.
 See: https://www.youtube.com/watch?v=PfOJhxm3M8U
 
 - Generate a timesequence of a 3 dimensional dataset (2 spatial 1 time), of a "Ball" moving.
 - Develop an algorithm based on Linear Algebra (Matrix operations) to track the position of the ball in time.
+
+## How to run the code
+The juypter notebook, BallTracking.ipynb, contains all the code for this project and outlines an example.  To run the notebook, one need only have access to basic python libraries which include matplotlib, math, and numpy libraries.
 
 ## The Tracking Algorithm
 
